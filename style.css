@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&display=swap');
+
+html {
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+}
+
+body {
+    background-color: aquamarine;
+    margin: 0 auto;
+    height: 100vh;
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+p {
+    font-style: italic;
+    text-align: center;
+}
+
+/*
+container {
+    background-color: darkblue;
+    margin: 0 auto;
+    padding: 200px;
+}
+*/
+
+form {
+    background-color: darkcyan;
+    width: 600px;
+    margin: 0 auto;
+    border-radius: 10px;
+    padding: 10px;
+    color: aliceblue;
+    line-height: 1.5rem;
+    box-shadow: 5px 5px 5px #005858;
+}
+
+label {
+    padding: 10px;
+    letter-spacing: 0.5px;
+}
+
+input, select {
+    margin-left: 10px;
+    border-radius: 10px;
+}
+
+textarea {
+    border-radius: 10px;
+}
+
+button {
+    background-color: aquamarine;
+    color: darkcyan;
+    font-weight: 700;
+    width: 200px;
+    height: 30px;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    
+}
+
+.button {
+    text-align: center;
+
+}
