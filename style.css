@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&display=swap');
 
 html {
-    font-size: 16px;
+    font-size: 18px;
     font-family: 'Lato', sans-serif;
 }
 
@@ -22,18 +22,10 @@ p {
     text-align: center;
 }
 
-/*
-container {
-    background-color: darkblue;
-    margin: 0 auto;
-    padding: 200px;
-}
-*/
-
 form {
     background-color: darkcyan;
     width: 600px;
-    margin: 0 auto;
+    margin: 1rem auto;
     border-radius: 10px;
     padding: 10px;
     color: aliceblue;
@@ -46,13 +38,17 @@ label {
     letter-spacing: 0.5px;
 }
 
-input, select {
+input,
+select {
     margin-left: 10px;
     border-radius: 10px;
+    font-size: 1rem;
 }
 
 textarea {
     border-radius: 10px;
+    margin-left: 10px;
+    font-size: 1rem;
 }
 
 button {
@@ -63,10 +59,15 @@ button {
     height: 30px;
     font-size: 1.2rem;
     border-radius: 10px;
-    
+
 }
 
 .button {
     text-align: center;
 
+}
+
+button:hover {
+    color: aquamarine;
+    background-color: darkcyan;
 }

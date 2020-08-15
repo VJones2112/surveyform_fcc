@@ -4,70 +4,70 @@
 
 <head>
 
-<title></title>
-<meta charset="UTF-8">
-<meta name="description" content="This is what Google will show.">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="icon" href=>
-<link rel="stylesheet" href="style.css">
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="description" content="fcc Survey Form Project">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href=>
+    <link rel="stylesheet" href="style.css">
 
 </head>
 
 <body>
-<h1 id="title">
-    freeCodeCamp Survey Form
-</h1>
-<p id="description">Thank you for taking the time to help us improve the platform.</p>
-<container>
-  <div class="container">
-   <form id="survey-form">
-    <label id="name-label" for="name">Name</label>
-    <input type="text" id="name" name="name" placeholder="Your name" required><br><br>
-    
-    <label id="email-label" for="email">Email</label>
-    <input type="email" id="email" name="email" placeholder="Your email" pattern="abc@web.com" required><br><br>
-    
-    <label id="number-label" for="age">Age (must be at least 18)</label>
-    <input type="number" id="number" name="number" step="1" min="18" max="100" placeholder="30" required><br><br>
-    
-    <label id="dropdown" for="dropdown">How long have you been coding?</label>
-    <select id="dropdown" name="dropdown">
-    <option value="0">0 Years- I am a complete newbie!</option>
-    <option value="1">1-4 Years</option>
-    <option value="2">5-10 Years</option>
-    <option value="3">More than 10 years</option>
-    </select><br><br>
-    
-    <label>What is your favorite learning-to-code platform? (Choose one)</label><br>
-    <input id="platform" type="radio" name="platform" value="fcc">
-    <label for="fcc">freeCodeCamp</label><br>
-    <input id="platform" type="radio" name="platform" value="codecademy">
-    <label for="codecademy">Codecademy</label><br>
-    <input id="platform" type="radio" name="platform" value="odin">
-    <label for="odin">The Odin Project</label><br>
-    <input id="platform" type="radio" name="platform" value="w3">
-    <label id="w3" for="w3">w3schools</label><br><br>
-    
-    <label id="career" for="career">What career choices are you considering?</label><br>
-    <input id="career1" type="checkbox" name="career1" value="career1">
-    <label for="career1">Not code related</label><br>
-    <input id="career2" type="checkbox" name="career2" value="career2">
-    <label for="career2">Front-end Development</label><br>
-    <input id="career3" type="checkbox" name="career3" value="career3">
-    <label for="career3">Back-end Development</label><br>
-    <input id="career4" type="checkbox" name="career4" value="career4">
-    <label for="career4">Full Stack Development</label><br><br>
-    
-     <label>Is there anything else you'd like to add?</label><br>
-     <textarea name="add" rows="10" cols="30" placeholder="Additional comments"></textarea><br>
-     
-     <div class="button">
-    <button id="submit" value="Submit">Submit</button>
-    </div>
-    
-</form>
-</div>
-</container>
+    <h1 id="title">
+        freeCodeCamp Survey Form
+    </h1>
+    <p id="description">Thank you for taking the time to help us improve the platform.</p>
+    <container>
+        <div class="container">
+            <form id="survey-form">
+                <label id="name-label" for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Your name" required><br><br>
+
+                <label id="email-label" for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Your email" required><br><br>
+
+                <label id="number-label" for="age">Age (must be at least 18)</label>
+                <input type="number" id="number" name="number" step="1" min="18" max="100" placeholder="30" required><br><br>
+
+                <label id="labelDropdown" for="dropdown">How long have you been coding?</label>
+                <select id="selectDropdown" name="dropdown">
+                    <option value="0">0 Years- I am a complete newbie!</option>
+                    <option value="1">1-4 Years</option>
+                    <option value="2">5-10 Years</option>
+                    <option value="3">More than 10 years</option>
+                </select><br><br>
+
+                <label>What is your favorite learning-to-code platform? (Choose one)</label><br>
+                <input id="fccPlatform" type="radio" name="platform" value="fcc">
+                <label for="fcc">freeCodeCamp</label><br>
+                <input id="codecademyPlatform" type="radio" name="platform" value="codecademy">
+                <label for="codecademy">Codecademy</label><br>
+                <input id="tOPPlatform" type="radio" name="platform" value="odin">
+                <label for="odin">The Odin Project</label><br>
+                <input id="w3Platform" type="radio" name="platform" value="w3">
+                <label id="w3" for="w3">w3schools</label><br><br>
+
+                <label id="career" for="career">What career choices are you considering?</label><br>
+                <input id="career1" type="checkbox" name="career1" value="career1">
+                <label for="career1">Not code related</label><br>
+                <input id="career2" type="checkbox" name="career2" value="career2">
+                <label for="career2">Front-end Development</label><br>
+                <input id="career3" type="checkbox" name="career3" value="career3">
+                <label for="career3">Back-end Development</label><br>
+                <input id="career4" type="checkbox" name="career4" value="career4">
+                <label for="career4">Full Stack Development</label><br><br>
+
+                <label>Is there anything else you'd like to add?</label><br>
+                <textarea name="add" rows="10" cols="35" placeholder="Additional comments"></textarea><br>
+
+                <div class="button">
+                    <button id="submit" value="Submit">Submit</button>
+                </div>
+
+            </form>
+        </div>
+    </container>
 </body>
 
 </html>
